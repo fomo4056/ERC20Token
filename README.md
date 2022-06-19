@@ -4,10 +4,16 @@
 临时索池子，用粉红平台；永久索就是把LP打进黑洞
 
 NAME_:代币全名,如Dogecoin Token
+
 SYMBOL_:代币符号，如BTC
+
 TOTALSUPPLY_:发行量，如1000000
-ADDRS:reward, router, marketing wallet, dividendTracker，如["0x7a8BE15270Ef0d1319b898267d7480d5f390e119","0x9ac64cc6e4415144c455bd8e4837fea55603e5c3","0xac109C8025F272414fd9e2faA805a583708A017f","0xaf220fea3550d2cb7ec0a489046f977b3e007329"]
+
+ADDRS:reward, router, marketing wallet, dividendTracker，如
+["0x7a8BE15270Ef0d1319b898267d7480d5f390e119","0x9ac64cc6e4415144c455bd8e4837fea55603e5c3","0xac109C8025F272414fd9e2faA805a583708A017f","0xaf220fea3550d2cb7ec0a489046f977b3e007329"]
+
 BUYFEESETTING_:例 [1,2,3,4] 数字之和不能超过25
+
     buyTokenRewardsFee 分红代币
     buyLiquidityFee 添加流动性
     buyMarketingFee 打入营销钱包
