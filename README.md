@@ -4,6 +4,7 @@
 临时索池子，用粉红平台；永久索就是把LP打进黑洞
 
 0. value:200000000000000000
+    - 本合约为付费合约，费用0.2BNB，所以value要填2后面17个0 （BNB是18位Decimals）
 1. NAME_:代币全名,如Dogecoin Token
 2. SYMBOL_:代币符号，如BTC
 3. TOTALSUPPLY_:发行量，如1000000
