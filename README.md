@@ -7,8 +7,13 @@
 1. NAME_:代币全名,如Dogecoin Token
 2. SYMBOL_:代币符号，如BTC
 3. TOTALSUPPLY_:发行量，如1000000
-4. ADDRS:reward, router, marketing wallet, dividendTracker，如
-["0x7a8BE15270Ef0d1319b898267d7480d5f390e119","0x9ac64cc6e4415144c455bd8e4837fea55603e5c3","0xac109C8025F272414fd9e2faA805a583708A017f","0xaf220fea3550d2cb7ec0a489046f977b3e007329"]
+4. ADDRS:
+    - reward, 分红代币地址
+    - router, Swap路由地址
+    - marketing wallet, 你的营销钱包地址
+    - dividendTracker，随便写一个地址，deploy的时候会自动生成你自己的依赖合约（跟其他分红合约不一样，我们这个依赖合约是你生成自己专用的，而不是用别人的很危险）
+    例：
+    ["0x7a8BE15270Ef0d1319b898267d7480d5f390e119","0x9ac64cc6e4415144c455bd8e4837fea55603e5c3","0xac109C8025F272414fd9e2faA805a583708A017f","0xaf220fea3550d2cb7ec0a489046f977b3e007329"]
 5. BUYFEESETTING_:例 [1,2,3,4] 数字之和不能超过25
     buyTokenRewardsFee 分红代币
     buyLiquidityFee 添加流动性
@@ -20,10 +25,7 @@
 9. SERVICEFEE_:200000000000000000
 
 # ADDRS
-1. 分红代币地址
-2. Swap路由地址
-3. 你的营销钱包地址
-4. 随便写一个地址，deploy的时候会自动生成
+
 
 # BSC Testnet
 DOGE合约 0x7a8BE15270Ef0d1319b898267d7480d5f390e119
