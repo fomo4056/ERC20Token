@@ -3,25 +3,21 @@
 功能包含：分红，回流，营销钱包，黑名单，销毁，增发，暂停交易等
 临时索池子，用粉红平台；永久索就是把LP打进黑洞
 
-NAME_:代币全名,如Dogecoin Token
-
-SYMBOL_:代币符号，如BTC
-
-TOTALSUPPLY_:发行量，如1000000
-
-ADDRS:reward, router, marketing wallet, dividendTracker，如
+0. value:200000000000000000
+1. NAME_:代币全名,如Dogecoin Token
+2. SYMBOL_:代币符号，如BTC
+3. TOTALSUPPLY_:发行量，如1000000
+4. ADDRS:reward, router, marketing wallet, dividendTracker，如
 ["0x7a8BE15270Ef0d1319b898267d7480d5f390e119","0x9ac64cc6e4415144c455bd8e4837fea55603e5c3","0xac109C8025F272414fd9e2faA805a583708A017f","0xaf220fea3550d2cb7ec0a489046f977b3e007329"]
-
-BUYFEESETTING_:例 [1,2,3,4] 数字之和不能超过25
-
+5. BUYFEESETTING_:例 [1,2,3,4] 数字之和不能超过25
     buyTokenRewardsFee 分红代币
     buyLiquidityFee 添加流动性
     buyMarketingFee 打入营销钱包
     buyDeadFee 销毁，打入黑洞地址
-SELLFEESETTING_:例 [2,2,3,4] 数字之和不能超过25
-TOKENBALANCEFORREWARD_:最小持仓分红数量，整数
-SERVICEFEERECEIVER_:依赖合约0xba4250dc317D70C9DFEc87F326F022D902FCc5FF
-SERVICEFEE_:100
+6. SELLFEESETTING_:例 [2,2,3,4] 数字之和不能超过25
+7. TOKENBALANCEFORREWARD_:最小持仓分红数量，整数
+8. SERVICEFEERECEIVER_:依赖合约0xba4250dc317D70C9DFEc87F326F022D902FCc5FF
+9. SERVICEFEE_:200000000000000000
 
 # ADDRS
 1. 分红代币地址
